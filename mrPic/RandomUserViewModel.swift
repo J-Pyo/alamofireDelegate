@@ -27,7 +27,7 @@ class RandomUserViewModel{
     var pagingNumber = 50
     var paging = false
     func fetchRandomUsers(){
-        var baseUrl = "https://randomuser.me/api/?results=\(pagingNumber)&gender=female"
+        let baseUrl = "https://randomuser.me/api/?results=\(pagingNumber)&gender=female"
         
         api.protocolWithAlamo(urlString: baseUrl) { result in
             guard let result = result else{

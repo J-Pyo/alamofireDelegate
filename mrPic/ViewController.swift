@@ -51,7 +51,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate{
         return 70.0
     }
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        var position = scrollView.contentOffset.y
+        let position = scrollView.contentOffset.y
         if position > (tableView.contentSize.height - 100 - scrollView.frame.size.height) {
             viewModel.addRandomUser()
         }
