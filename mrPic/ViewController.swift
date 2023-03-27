@@ -31,7 +31,6 @@ class ViewController: UIViewController {
     }
     @objc func pullToRefresh(){
         viewModel.fetchRandomUsers()
-//        refreshControl.endRefreshing()
     }
 }
 extension ViewController: UITableViewDataSource, UITableViewDelegate{
@@ -63,7 +62,6 @@ extension ViewController: RandomUserViewModelDelegate{
         case .gotRandomUser:
             self.tableView.reloadData()
             refreshControl.endRefreshing()
-            
         case .error(let reason):
             print(reason)
         }
