@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		023950C829D03CC20018FCCF /* mrPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mrPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		023950C829D03CC20018FCCF /* alamofireDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alamofireDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		023950CB29D03CC20018FCCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		023950CD29D03CC20018FCCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		023950CF29D03CC20018FCCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		023950BF29D03CC20018FCCF = {
 			isa = PBXGroup;
 			children = (
-				023950CA29D03CC20018FCCF /* mrPic */,
+				023950CA29D03CC20018FCCF /* alamofireDelegate */,
 				023950C929D03CC20018FCCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,12 +64,12 @@
 		023950C929D03CC20018FCCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				023950C829D03CC20018FCCF /* mrPic.app */,
+				023950C829D03CC20018FCCF /* alamofireDelegate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		023950CA29D03CC20018FCCF /* mrPic */ = {
+		023950CA29D03CC20018FCCF /* alamofireDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				023950CB29D03CC20018FCCF /* AppDelegate.swift */,
@@ -85,15 +85,15 @@
 				023950F229D046290018FCCF /* RandomUserTableViewCell.swift */,
 				023950F329D046290018FCCF /* RandomUserTableViewCell.xib */,
 			);
-			path = mrPic;
+			path = alamofireDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		023950C729D03CC20018FCCF /* mrPic */ = {
+		023950C729D03CC20018FCCF /* alamofireDelegate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 023950DC29D03CC40018FCCF /* Build configuration list for PBXNativeTarget "mrPic" */;
+			buildConfigurationList = 023950DC29D03CC40018FCCF /* Build configuration list for PBXNativeTarget "alamofireDelegate" */;
 			buildPhases = (
 				023950C429D03CC20018FCCF /* Sources */,
 				023950C529D03CC20018FCCF /* Frameworks */,
@@ -103,14 +103,14 @@
 			);
 			dependencies = (
 			);
-			name = mrPic;
+			name = alamofireDelegate;
 			packageProductDependencies = (
 				023950E629D03DD60018FCCF /* Alamofire */,
 				023950F029D045770018FCCF /* SnapKit */,
 				023950F729D04B140018FCCF /* Kingfisher */,
 			);
 			productName = mrPic;
-			productReference = 023950C829D03CC20018FCCF /* mrPic.app */;
+			productReference = 023950C829D03CC20018FCCF /* alamofireDelegate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 023950C329D03CC20018FCCF /* Build configuration list for PBXProject "mrPic" */;
+			buildConfigurationList = 023950C329D03CC20018FCCF /* Build configuration list for PBXProject "alamofireDelegate" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				023950C729D03CC20018FCCF /* mrPic */,
+				023950C729D03CC20018FCCF /* alamofireDelegate */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6ACX2ZPG9J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mrPic/Info.plist;
+				INFOPLIST_FILE = alamofireDelegate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hjp.mrPic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjp.alamofireDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6ACX2ZPG9J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mrPic/Info.plist;
+				INFOPLIST_FILE = alamofireDelegate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,7 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hjp.mrPic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjp.alamofireDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -375,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		023950C329D03CC20018FCCF /* Build configuration list for PBXProject "mrPic" */ = {
+		023950C329D03CC20018FCCF /* Build configuration list for PBXProject "alamofireDelegate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				023950DA29D03CC40018FCCF /* Debug */,
@@ -384,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		023950DC29D03CC40018FCCF /* Build configuration list for PBXNativeTarget "mrPic" */ = {
+		023950DC29D03CC40018FCCF /* Build configuration list for PBXNativeTarget "alamofireDelegate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				023950DD29D03CC40018FCCF /* Debug */,

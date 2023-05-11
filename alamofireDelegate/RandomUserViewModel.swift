@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol RandomUserViewModelDelegate {
+protocol RandomUserViewModelDelegate: AnyObject {
   func didUpdateState(to state: RandomUserViewModelState)
 }
 enum RandomUserViewModelState {
@@ -15,8 +15,8 @@ enum RandomUserViewModelState {
   /// 에러
   case error(reason: String)
 }
-class RandomUserViewModel{
-    var delegate: RandomUserViewModelDelegate?
+class RandomUserViewModel {
+    weak var delegate: RandomUserViewModelDelegate?
     
     var randomUsers: [RandomUser] = []{
         didSet{
