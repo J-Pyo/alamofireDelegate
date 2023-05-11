@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  mrPic
+//  alamofireDelegate
 //
 //  Created by 홍정표 on 2023/03/26.
 //
